@@ -6,9 +6,8 @@ clinical signs of COVID-19 from chest CT scan images.
 CT and other chest imaging techniques have proven to be instrumental in helping 
 practitioners to diagnose the disease during the outbreak of COVID-19. 
 
-The folders CT_COVID and CT_NonCOVID contains the COVID-CT dataset used in the 
-present project.The dataset was created by Zhao et al. (2020) and it is organized 
-in two folders:
+The dataset used in the present project was created by Zhao et al. (2020) and it is 
+organized in two folders:
 
 The CT_COVID folder contains 349 chest CT images depicting clinical findings of COVID-19 
 from 216 patients.
@@ -22,11 +21,8 @@ the Radiopaedia website (radiology images from patient cases) and PubMed Central
 References: Zhao, Jinyu and Zhang, Yichen and He, Xuehai and Xie, Pengtao (2020). 
 COVID-CT-Dataset: a CT scan dataset about COVID-19. arXiv preprint. arXiv:2003.13865
 
-The "models" folder contains the best performing convolutional neural networks 
-trained used Google Colaboratory and pyTorch.
-
 The file "CT_covid_detection_model.ipynb" is the notebook used for model training and
-evaluation in Google Colaboratory. A .pdf version of the notebook is also present 
-in the main folder.
+evaluation in Google Colaboratory. It contains code for data preprocessing,
+model training and evaluation of the results.
 
 fr 2021-01-20
